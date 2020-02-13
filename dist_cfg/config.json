@@ -7,12 +7,12 @@
                 "display": "Stable"
             },
             "downloads": {
-                "games" : ["zk:stable", "chobby:stable"],
+                "games" : ["zk:stable", "zkmenu:stable"],
                 "engines" : [ "104.0.1-1435-g79d77ca maintenance"]
             },
             "no_start_script" : true,
             "launch": {
-                "start_args" : ["--menu", "rapid://chobby:stable"]
+                "start_args" : ["--menu", "rapid://zkmenu:stable"]
             }
         },
         {
@@ -21,12 +21,12 @@
                 "display": "Test"
             },
             "downloads": {
-                "games" : ["zk:test", "chobby:test"],
+                "games" : ["zk:test", "zkmenu:test"],
                 "engines" : [ "104.0.1-1455-g39f8fbd maintenance"]
             },
             "no_start_script" : true,
             "launch": {
-                "start_args" : ["--menu", "rapid://chobby:test"]
+                "start_args" : ["--menu", "rapid://zkmenu:test"]
             }
         },
         {
